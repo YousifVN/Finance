@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block main %}
+    <!-- https://memegen.link/ -->
+    <img src="https://api.memegen.link/images/grumpycat/Not Funny/{{ bottom | urlencode }}.png" alt="Error Message" width="500" height="500">
+
+{% endblock %}

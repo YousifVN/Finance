@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoteed
+{% endblock %}
+
+{% block main %}
+    <p>A share of: {{ item.symbol }}</p>
+    <p>Costs: {{ usd(item.price) }}</p>
+{% endblock %}
